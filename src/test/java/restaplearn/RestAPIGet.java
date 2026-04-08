@@ -9,9 +9,9 @@ import io.restassured.specification.RequestSpecification;
 
 public class RestAPIGet {
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void getElementAPI() {
-		
+		//git purpose
 		RestAssured.baseURI="https://api.restful-api.dev/";
 		RequestSpecification request = RestAssured.given();
 		Response res = request.request(Method.GET,"objects");
