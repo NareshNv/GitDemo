@@ -36,7 +36,7 @@ public class LoginPage {
 	@DataProvider(name = "dataHere")
 	public Object[][] data() {
 
-		return new Object[][] { { "student", "Password123" }, { "student", "Password13" }, { "student1", "Password123" }
+		return new Object[][] { { "student", "Password123" }, { "student", "Password13" }, { "student2", "Password123" }
 
 		};
 

@@ -14,7 +14,7 @@ import browserInitalize.BrowserInit;
 
 public class CheckBox extends BrowserInit {
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void Checkbox() {
 		browser();
 		driver.get("https://artoftesting.com/samplesiteforselenium");
