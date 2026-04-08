@@ -105,6 +105,33 @@ public class DropDownTest extends BrowserInit {
 		driver.switchTo().parentFrame();
 
 	}
+	@Test(enabled = false)
+	public void iframes0() {
+
+		driver.get("https://letcode.in/frame");
+		driver.switchTo().frame("firstFr");
+		driver.findElement(By.xpath("//input[contains(@placeholder, 'Enter name')]")).sendKeys("Name");
+		driver.switchTo().parentFrame();
+
+	}
+	@Test(enabled = false)
+	public void iframes1() {
+
+		driver.get("https://letcode.in/frame");
+		driver.switchTo().frame("firstFr");
+		driver.findElement(By.xpath("//input[contains(@placeholder, 'Enter name')]")).sendKeys("Name");
+		driver.switchTo().parentFrame();
+
+	}
+	@Test(enabled = false)
+	public void iframes2() {
+
+		driver.get("https://letcode.in/frame");
+		driver.switchTo().frame("firstFr");
+		driver.findElement(By.xpath("//input[contains(@placeholder, 'Enter name')]")).sendKeys("Name");
+		driver.switchTo().parentFrame();
+
+	}
 
 	@Test(enabled = false)
 	public void actions() {

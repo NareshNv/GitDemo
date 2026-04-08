@@ -24,6 +24,17 @@ public class CheckBox extends BrowserInit {
 			checkbox.click();
 		}
 	}
+	
+	@Test(enabled = false)
+	public void Checkbox1() {
+		browser();
+		driver.get("https://artoftesting.com/samplesiteforselenium");
+		WebElement checkbox = driver.findElement(By.xpath("//input[(@type='checkbox') and (@class='Automation') ]"));
+
+		if (checkbox.isSelected() == false) {
+			checkbox.click();
+		}
+	}
 
 	@Test(priority = 1)
 	public void StaticDropdown() {
